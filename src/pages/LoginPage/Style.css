@@ -1,0 +1,76 @@
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 428px;
+    height: 926px;
+    border: 1px solid black;
+}
+
+.logoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.logos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    justify-items: center;
+}
+
+.logo {
+    width: 50px;
+}
+
+.logo1 {
+    width: 50px;
+}
+
+.logo2 {
+    width: 50px;
+}
+
+.logo3 {
+    width: 50px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.input {
+    width: 280px;
+    height: 35px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.button {
+    background: linear-gradient(90deg, #FF6489 0%, #F9B24E 100%);
+    border-radius: 27px;
+    width: 280px;
+    height: 35px;
+    border: none;
+}
+
+.line {
+    transform: rotate(0.32deg);
+    width: 300px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: #FF6489 100% #F9B24E 100%;
+}
