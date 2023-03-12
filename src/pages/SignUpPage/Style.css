@@ -1,0 +1,105 @@
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 428px;
+    height: 926px;
+    border: 1px solid black;
+    padding: 40px;
+}
+
+.logoAndButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid blue;
+    width: 100%;
+
+}
+
+.enter {
+    display: flex;
+    justify-content: end;
+    border: 1px solid black;
+}
+
+.logoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+    border: 2px solid blue;
+    height: 100%;
+}
+
+.logos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    justify-items: center;
+    border: 1px solid black;
+}
+
+.logo {
+    width: 20px;
+}
+
+.logo1 {
+    width: 20px;
+}
+
+.logo2 {
+    width: 20px;
+}
+
+.logo3 {
+    width: 20px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin: 70px;
+}
+
+.input {
+    width: 280px;
+    height: 35px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.texts {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    margin: 20px;
+    gap: 20px;
+}
+
+.button {
+    background: linear-gradient(90deg, #FF6489 0%, #F9B24E 100%);
+    border-radius: 27px;
+    width: 280px;
+    height: 35px;
+    border: none;
+}
+
+.line {
+    transform: rotate(0.32deg);
+    width: 300px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: #FF6489 100% #F9B24E 100%;
+}
