@@ -12,7 +12,7 @@ const Router = () => {
             <Route index element={<HomePage />} />
             <Route path="/signup" element={<SignUpPage />} />
             <Route path="/login" element={<LoginPage />} />
-            <Route path="/comments" element={<CommentsPage />} />
+            <Route path="/comments/:commentId" element={<CommentsPage />} />
         </Routes>
     </BrowserRouter>
   )

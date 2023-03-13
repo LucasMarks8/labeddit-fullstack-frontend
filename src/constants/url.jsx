@@ -1,0 +1,1 @@
+export const BASE_URL = "https://labeddit-k20q.onrender.com"
