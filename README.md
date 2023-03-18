@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+# Projeto LabEddit - Labenu
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Índice
+- <a href="#funcionalidades">Funcionalides do Projeto</a>
+- <a href="#-tecnologias-utilizadas">Tecnologias utilizadas</a>
+- <a href="#autor">Autor</a>
 
-## Available Scripts
+## 📱Funcionalidades do Projeto
 
-In the project directory, you can run:
+- [x] Página de signup onde possui é possível realizar o cadastro na plataforma.
+- [x] Página de login, onde precisa de email e password para se logar no app.
+- [x] Página home, onde é possível ver os posts, curtir ou descurtir as publicações e comentar algum post.
+- [x] Página de comentários, onde é possível ver todos os comentários de um post e comentar a publicação, além de curtir e descurtir os comentários.
 
-### `npm start`
+## 🛠Tecnologias utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. [React JS](https://pt-br.reactjs.org/)
+2. [React Router](https://reactrouter.com/en/main)
+3. [CSS](https://styled-components.com/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🖋Autor
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Lucas Marques
+- Email: lucas.marks8@gmail.com
+- Tel: 11 96997-5003
+- ["Linkedin"](https://www.linkedin.com/in/lucas-henrique-marques/)

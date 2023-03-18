@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './Style.css'
+import './SignUpStyle.css'
 import Logo from "../../assets/icons/Vector.png"
 import Logo1 from "../../assets/icons/Vector1.png"
 import Logo2 from "../../assets/icons/Vector2.png"
@@ -25,7 +25,6 @@ const SignUpPage = () => {
 
   const handleClick = (event) => {
     event.preventDefault()
-    console.log(form);
   }
 
   const signUp = async () => {
@@ -43,7 +42,7 @@ const SignUpPage = () => {
         body
       )
 
-      window.localStorage.setItem("labeddit-token", response.data.token)
+      window.localStorage.setItem("labeddit", response.data.token)
       window.alert("Cadastro realizado com sucesso")
       setIsLoading(false)
       console.log(response.data.token)
@@ -57,7 +56,7 @@ const SignUpPage = () => {
 
   return (
     <div className='loginContainer'>
-      <div className='logoContainer'>
+      
         <div className='logoAndButton'>
           <div className='logos'>
             <img className='logo' src={Logo} alt="" />
@@ -65,14 +64,15 @@ const SignUpPage = () => {
             <img className='logo2' src={Logo2} alt="" />
             <img className='logo3' src={Logo3} alt="" />
           </div>
-          <div className='enter'>
+          <div>
             <button>Entrar</button>
           </div>
         </div>
-        <h1>Olá, boas vindas ao LabEddit ;)</h1>
+        <h2>Olá, boas vindas ao LabEddit ;)</h2>
         <div className='inputsAndButton'>
-          <div className='inputs'>
             <form onSubmit={handleClick}>
+          <div className='inputs'>
+          
             <input
               className='input'
               placeholder='NickName'
@@ -97,7 +97,7 @@ const SignUpPage = () => {
               value={form.password}
               onChange={onChangeForm}
             ></input>
-            </form>
+           
           </div>
           <div className='texts'>
             <p>Ao continuar, você concorda com o nosso <a href='#'>Contrato de usuário</a> e nossa <a href='#'>Política de privacidade</a></p>
@@ -109,8 +109,9 @@ const SignUpPage = () => {
             </div>
             <button className='button' onClick={signUp}>Cadastrar</button>
           </div>
+           </form>
         </div>
-      </div>
+      
     </div>
   )
 }
