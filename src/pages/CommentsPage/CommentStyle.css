@@ -1,0 +1,115 @@
+.login-Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 428px;
+    height: 926px;
+    background-color: white;
+}
+
+.logoAndButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    top: fixed;
+}
+
+.logos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    justify-items: center;
+}
+
+.logo {
+    width: 50px;
+}
+
+.logo1 {
+    width: 50px;
+}
+
+.logo2 {
+    width: 50px;
+}
+
+.logo3 {
+    width: 50px;
+}
+
+.commentInput {
+    width: 364px;
+    height: 131px;
+    background: #EDEDED;
+    border-radius: 12px;
+}
+
+.divInput {
+    width: 364px;
+    height: 131px;
+    left: 30px;
+    top: 126px;
+    background: #EDEDED;
+    border-radius: 12px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.button {
+    background: linear-gradient(90deg, #FF6489 0%, #F9B24E 100%);
+    border-radius: 27px;
+    width: 280px;
+    height: 35px;
+    border: none;
+}
+
+.line {
+    transform: rotate(0.32deg);
+    width: 300px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: #FF6489 100% #F9B24E 100%;
+}
+
+.commentsContainer {
+    display: flex;
+    width: 364px;
+    overflow-y: scroll;
+}
+
+.comments {
+    display: flex;
+    flex-direction: column;
+    width: 325px;
+    height: 100px;
+    align-items: flex-start;
+    padding: 9px 10px;
+    gap: 18px;
+    background: #FBFBFB;
+    border: 1px solid #E0E0E0;
+    border-radius: 12px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.like:hover {
+    cursor: pointer;
+    background-color: green;
+}
+
+.dislike:hover {
+    cursor: pointer;
+    background-color: red;
+}
